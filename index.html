@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="upper">
+      <div class="upper-left">
+        <p class="head">My balance</p>
+        <p class="large-rate">$921.48</p>
+      </div>
+      <div class="upper-right">
+        <img src="images/logo.svg" alt="logo" class="logo">
+      </div>
+    </div><br>
+    <div class="lower">
+      <div class="lower-heading">Spending - Last 7 days</div>
+      <div class="graph">
+        <ul class="week-graph">
+          <li class="week-graph-item mon" id="day-1"></li>
+          <li class="week-graph-item tue" id="day-2"></li>
+          <li class="week-graph-item wed" id="day-3"></li>
+          <li class="week-graph-item thu" id="day-4"></li>
+          <li class="week-graph-item fri" id="day-5"></li>
+          <li class="week-graph-item sat" id="day-6"></li>
+          <li class="week-graph-item sun" id="day-7"></li>
+        </ul>
+        <div class="week">
+          <p class="day">mon</p>
+          <p class="day">tue</p>
+          <p class="day">wed</p>
+          <p class="day">thu</p>
+          <p class="day">fri</p>
+          <p class="day">sat</p>
+          <p class="day">sun</p>
+        </div>
+      </div>
+      <hr>
+      <div class="content">
+        <div class="content-left">
+          <p class="upper-info">Total this month</p>
+          <h1 class="lower-rate">$478.33</h1>
+        </div>
+        <div class="content-right">
+          <p class="upper-rate">+2.4%</p>
+          <p class="lower-info">from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Matin Imam</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

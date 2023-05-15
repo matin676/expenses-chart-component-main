@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27, 66%, 92%);
+  list-style-type: none;
+  transition: all 0.4s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  width: fit-content;
+}
+
+.upper,
+.upper-left,
+.upper-right,
+.head,
+.large-rate,
+img {
+  background-color: hsl(10, 79%, 65%);
+}
+
+.upper {
+  display: flex;
+  min-width: 375px;
+  height: 5.5rem;
+  border-radius: 15px;
+}
+
+.upper-left {
+  margin: 1.3rem;
+  color: white;
+}
+
+.head {
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.large-rate {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.upper-right {
+  margin-top: 1.8rem;
+  position: relative;
+  transform: translateX(11rem);
+}
+
+.logo {
+  width: 50px;
+}
+
+.lower,
+.lower-heading,
+.graph,
+.day,
+.week,
+.week-graph,
+.week-graph-item,
+.content,
+.content-left,
+.content-right,
+.upper-info,
+.upper-rate,
+.lower-info,
+.lower-rate {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.lower-heading {
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.graph {
+  margin: 1.5rem;
+  font-size: 13px;
+  color: gray;
+}
+
+.week,
+.week-graph {
+  display: flex;
+}
+
+.week-graph {
+  margin-left: 0.1rem;
+}
+
+.day {
+  margin: 0 0.8rem;
+}
+
+.week-graph-item {
+  position: relative;
+  width: 20%;
+  height: 100px;
+  padding: 10px;
+  margin: 0.5rem;
+  border-radius: 6px;
+}
+
+.week-graph-item:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.mon {
+  height: 30px;
+  top: 4.4rem;
+}
+
+.tue {
+  height: 60px;
+  top: 2.4rem;
+}
+
+.thu {
+  height: 50px;
+  top: 3rem;
+}
+
+.fri {
+  height: 40px;
+  top: 3.6rem;
+}
+
+.sat {
+  height: 80px;
+  top: 1rem;
+}
+
+.sun {
+  height: 55px;
+  top: 2.5rem;
+}
+
+hr {
+  margin: 1rem 1.5rem;
+  opacity: 0.3;
+}
+
+.content {
+  display: flex;
+  margin: 1rem 1.5rem;
+}
+
+.upper-info,
+.lower-info {
+  font-size: 13px;
+  color: gray;
+}
+
+.content-right {
+  position: relative;
+  left: 7rem;
+  top: 1rem;
+}
+
+.upper-rate {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.attribution {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
